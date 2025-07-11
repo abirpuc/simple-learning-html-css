@@ -53,6 +53,14 @@
     /* align-items: center; */
     align-content: center;
 }
+.flex-container5{
+    width: 90%;
+    margin:30px auto;
+    background: skyblue;
+    padding: 20px;
+    display: flex;
+    gap: 10px
+}
 
 .item-1{
     width: 150px;
