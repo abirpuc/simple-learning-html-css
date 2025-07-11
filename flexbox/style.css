@@ -30,13 +30,35 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.flex-container3{
+    width: 90%;
+    margin:30px auto;
+    background: skyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center;
+}
+.flex-container4{
+    width: 90%;
+    margin:30px auto;
+    background: skyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 500px;
+    /* align-items: center; */
+    align-content: center;
+}
 
 .item-1{
     width: 150px;
     height: 150px;
     background: white;
     font-size: 50px;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
