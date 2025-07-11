@@ -15,10 +15,20 @@
 }
 
 .flex-container1{
+    margin:30px 0;
     background: skyblue;
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+}
+.flex-container2{
+    width: 90%;
+    margin:30px auto;
+    background: skyblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .item-1{
